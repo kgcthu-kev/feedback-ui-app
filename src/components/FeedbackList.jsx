@@ -4,7 +4,7 @@ import FeedbackItem from './FeedbackItem'
 
 function FeedbackList({ feedback, handleDelete }) {
   if (!feedback || feedback.length === 0) {
-    return <h2>No Feedback</h2>
+    return <p>No Feedback</p>
   }
 
   return (
